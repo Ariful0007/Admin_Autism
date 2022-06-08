@@ -1,0 +1,79 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme.get" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryDark">@color/github_logo_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>
+    <style name="navStyle" parent="android:TextAppearance">
+        <item name="fontFamily">@font/circular_std_book</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!-- Splash screen theme -->
+    <style name="LoginTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/circular_std_book</item>
+    </style>
+    <style name="TitleBarTextAppearance" parent="android:TextAppearance">
+        <item name="fontFamily">@font/circular_std_book</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowRadius">1.5</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    //blood bank
+    <style name="AppTheme.Blood" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark3</item>
+        <item name="colorAccent">@color/colorAccent3</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark3</item>
+        <item name="colorAccent">@color/colorAccent3</item>
+    </style>
+
+    <style name="DetailTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarPopupTheme">@style/AppTheme.PopupOverlay</item>
+        <item name="colorPrimary">#FFF</item>
+        <item name="colorPrimaryDark">#cfd8dc</item>
+        <item name="colorAccent">#039BE6</item>
+        <item name="fontFamily">@font/circular_std_book</item>
+
+    </style>
+    <style name="MainTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="actionBarPopupTheme">@style/AppTheme.PopupOverlay</item>
+        <item name="colorPrimary">#FFF</item>
+        <item name="colorPrimaryDark">#cfd8dc</item>
+        <item name="colorAccent">#039BE6</item>
+        <item name="fontFamily">@font/circular_std_book</item>
+    </style>
+
+</resources>

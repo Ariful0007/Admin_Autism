@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="@dimen/space_10dp"
+    android:padding="16dp"
+ app:cardBackgroundColor="#4C696E"
+    android:layout_height="150dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+
+            android:id="@+id/login_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="@dimen/space_10dp"
+            android:layout_marginEnd="@dimen/space_20dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Please Patient PhoneNumner."
+            android:textAlignment="center"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="45dp" />
+        <TextView
+        android:id="@+id/login_desc1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_desc"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="@dimen/space_20dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/open_sans_semibold"
+        android:text="Please Patient PhoneNumner."
+        android:textAlignment="center"
+        android:textSize="12sp"
+            android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="45dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/login_desc2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_desc1"
+            android:layout_marginStart="@dimen/space_20dp"
+            android:layout_marginEnd="@dimen/space_20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Please Patient PhoneNumner."
+            android:textAlignment="center"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="45dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/login_desc3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_desc1"
+            android:layout_marginStart="@dimen/space_20dp"
+            android:layout_marginEnd="@dimen/space_20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Please Patient PhoneNumner."
+            android:textAlignment="center"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="45dp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/login_desc4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/login_desc1"
+            android:layout_marginStart="@dimen/space_20dp"
+            android:layout_marginEnd="@dimen/space_20dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:fontFamily="@font/open_sans_semibold"
+            android:text="Please Patient PhoneNumner."
+            android:textAlignment="center"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="45dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

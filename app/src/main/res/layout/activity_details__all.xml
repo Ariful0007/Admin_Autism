@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@color/off_white"
+    android:id="@+id/profile_activity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details_All">
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/toolbar"
+        app:titleTextColor="@color/white"
+        android:id="@+id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_below="@id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <include
+                android:layout_marginTop="55dp"
+                layout="@layout/details_all"
+                android:layout_below="@id/profile_toolbar"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                ></include>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

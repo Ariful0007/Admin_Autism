@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "702014253291",
+    "firebase_url": "https://autism-childs-care-default-rtdb.firebaseio.com",
+    "project_id": "autism-childs-care",
+    "storage_bucket": "autism-childs-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702014253291:android:d29b6dfa0e79f9dee8b6ae",
+        "android_client_info": {
+          "package_name": "com.meass.autism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702014253291-r9ov7iv8gabdc56lpplnoibmeihpc4v3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4A1a5LLinjBhl26S1jS2Nw50D3MMuogk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702014253291-r9ov7iv8gabdc56lpplnoibmeihpc4v3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702014253291:android:0358bbbc20d6a10de8b6ae",
+        "android_client_info": {
+          "package_name": "com.meass.todday_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702014253291-r9ov7iv8gabdc56lpplnoibmeihpc4v3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4A1a5LLinjBhl26S1jS2Nw50D3MMuogk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702014253291-r9ov7iv8gabdc56lpplnoibmeihpc4v3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702014253291:android:62bf215ef27b5dd3e8b6ae",
+        "android_client_info": {
+          "package_name": "com.new_sytem.newmedicall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702014253291-uqqgu0q2hniqtqmh5632ov3iuqp2m0n5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.new_sytem.newmedicall",
+            "certificate_hash": "23dba27c141b80a538c3a78332170cbea96fc309"
+          }
+        },
+        {
+          "client_id": "702014253291-r9ov7iv8gabdc56lpplnoibmeihpc4v3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4A1a5LLinjBhl26S1jS2Nw50D3MMuogk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702014253291-r9ov7iv8gabdc56lpplnoibmeihpc4v3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

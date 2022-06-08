@@ -1,0 +1,521 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:background="@color/off_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:id="@+id/setup_image"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/default_pic"
+                app:civ_border_color="#000"
+                app:civ_border_width="2dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Therapist Details"
+                android:id="@+id/changeProfilePhoto"
+                android:layout_below="@+id/setup_image"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+
+
+            <!-- username section -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/changeProfilePhoto"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout1">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_person_gray_24dp"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setup_name"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="textNoSuggestions"
+                    android:hint="Doctor Name"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+
+
+            <!-- display_name section -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout1"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout2"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_gesture_gray_24dp"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/setup_skill"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="textMultiLine"
+                    android:hint="Designation"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+
+
+
+
+
+            <!-- description section -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout2"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout4"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_description"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/aboutyou"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="textMultiLine"
+                    android:hint="Male/Female"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+
+
+            <!-- email section -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout4"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout5"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/location_search"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:hint="Location"
+                    android:inputType="text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+
+            <!-- phone number section -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout5"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout6"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_phone"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phoneNumber"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="phone"
+                    android:hint="Phone Number"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+            //bmdc number
+            <!-- phone number section -->
+            <RelativeLayout
+android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout6"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout7"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_gesture_gray_24dp"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phoneNumber1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:hint="BMDC Number"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+            //
+            //Email number
+            <!-- phone number section -->
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout7"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout8"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_email_gray_24dp"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phoneNumber11"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="textEmailAddress"
+                    android:hint="Email"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+            //
+            //bmdc number
+            <!-- phone number section -->
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout8"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout9"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_vpn_key_24"
+                    android:layout_centerVertical="true"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phoneNumber111"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="textPassword"
+                    android:hint="Password"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+            //
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout9"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout10"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_category_24"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phoneNumber1111"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:hint="Password"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+            //11
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout10"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout11"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_attach_money_24"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/doctorfee"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:textColor="#000"
+                    android:inputType="numberDecimal"
+                    android:hint="Doctor Fee"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+            //12
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout11"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout12"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_attach_money_24"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/payment_methode"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="text"
+                    android:hint="Password"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+            //13
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout12"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout13"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_attach_money_24"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/docotpaymentnumber"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:textColor="#000"
+                    android:inputType="phone"
+                    android:hint="Payment Number"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+            //14
+            //13
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/relLayout13"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout14"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_access_time_black_24dp"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/time"
+
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="phone"
+                    android:hint="Checking Time"
+                    android:textColor="#000"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+            //15
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@+id/relLayout14"
+                android:background="@drawable/gray_border_bottom"
+                android:id="@+id/relLayout15"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/ic_baseline_date_range_24"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="40dp"
+                    android:background="@null"
+                    android:inputType="textImeMultiLine"
+                    android:textColor="#000"
+                    android:id="@+id/days"
+
+                    android:text="Doctor Checking Day"
+                    android:layout_marginLeft="40dp" />
+
+            </RelativeLayout>
+
+            <Button
+                android:layout_marginBottom="@dimen/space_15dp"
+                android:layout_below="@id/relLayout15"
+                android:id="@+id/buttonSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50dp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:includeFontPadding="false"
+                android:textAllCaps="false"
+                android:text="Active this  Therapist"
+                android:background="@drawable/primary_btn_bg"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="@dimen/_12ssp"
+                />
+            <Button
+                android:layout_marginBottom="@dimen/space_15dp"
+                android:layout_below="@id/buttonSignIn"
+                android:id="@+id/buttonSignIn1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50dp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:includeFontPadding="false"
+                android:textAllCaps="false"
+                android:text="Deactive this  Therapist"
+                android:background="@drawable/primary_btn_bg"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="@dimen/_12ssp"
+                />
+
+            <Button
+                android:layout_marginBottom="@dimen/space_15dp"
+                android:layout_below="@id/buttonSignIn1"
+                android:id="@+id/buttonSignIn2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/space_50dp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:fontFamily="@font/ubuntu_bold"
+                android:includeFontPadding="false"
+                android:textAllCaps="false"
+                android:text="Deactive this  Therapist"
+                android:background="@drawable/primary_btn_bg"
+                android:textColor="@color/colorTextIcons"
+                android:textSize="@dimen/_12ssp"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+</merge>

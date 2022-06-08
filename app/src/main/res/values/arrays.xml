@@ -1,0 +1,57 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <string-array name="payment">
+        <item>Select a method</item>
+        <item>Bkash</item>
+        <item>Rocket</item>
+        <item>Nogod</item>
+    </string-array>
+    <string-array name="font_sizes11">
+        <item>Select Category</item>
+        <item>Covid-19(coronavirus)</item>
+        <item>Cancer(Oncology)</item>
+        <item>Cardio-Vascular Surgery</item>
+        <item>Cardio-thoracic Surgery</item>
+        <item>Cardiology</item>
+        <item>Colorectal Surgery(Piles)</item>
+        <item>Dentistry</item>
+        <item>Dermathology</item>
+        <item>Diabetes and Endocrinology</item>
+        <item>ENT</item>
+        <item>EYE</item>
+        <item>Gastroenterology</item>
+        <item>General Physician</item>
+        <item>General Practitioner</item>
+        <item>General Surgery</item>
+        <item>Gynecology</item>
+        <item>Hematology</item>
+        <item>Herbal</item>
+        <item>Medicine</item>
+        <item>Nepprology(Kidney)</item>
+        <item>Neurosurgery</item>
+        <item>Neuro Medicine</item>
+        <item>Nutritionist</item>
+        <item>Oncology(Cancer)</item>
+        <item>orthopedics</item>
+        <item>Pain Medicine</item>
+        <item>Pediatrics(Child)</item>
+        <item>Physical Medicine</item>
+        <item>Physiotherapy</item>
+        <item>Plastic Surgery</item>
+        <item>Psychology</item>
+        <item>Respiratory Medicine</item>
+        <item>Skin and VD</item>
+        <item>Urology</item>
+        <item>Vascular Surgery</item>
+
+    </string-array>
+</resources>

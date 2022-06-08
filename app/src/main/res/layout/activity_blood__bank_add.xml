@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blood_BankAdd">
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/toolbar"
+        android:id="@+id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+    <EditText
+        android:textColor="#000"
+        android:id="@+id/add_notes_title"
+        android:layout_below="@id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Enter Blood Bank Name"
+        android:inputType="textMultiLine"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textAlignment="viewStart"
+        android:textSize="15dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_toolbar" />
+    <EditText
+        android:textColor="#000"
+        android:id="@+id/add_notes_title2"
+        android:layout_below="@id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Enter Blood Bank Location"
+        android:inputType="textMultiLine"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textAlignment="viewStart"
+        android:textSize="15dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_toolbar" />
+    <EditText
+        android:textColor="#000"
+        android:id="@+id/add_notes_ti6tle"
+        android:layout_below="@id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="center_vertical"
+        android:hint="Enter Blood Bank Phone Number"
+        android:inputType="textMultiLine"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:textAlignment="viewStart"
+        android:textSize="12dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_toolbar" />
+    <Button
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:text="Add"
+        android:textColor="@color/white"
+        android:textAllCaps="true"
+        android:id="@+id/submit"
+        android:background="@color/toolbar"
+        android:layout_height="@dimen/space_50dp"
+        ></Button>
+</LinearLayout>

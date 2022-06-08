@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Doctor_Panel">
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/toolbar"
+        app:titleTextColor="@color/white"
+        android:id="@+id/profile_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="150dp"
+        android:layout_below="@id/profile_toolbar"
+        android:foregroundGravity="center"
+        android:layout_height="120dp"
+        app:cardBackgroundColor="@color/DarkCyan"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        android:layout_marginTop="@dimen/space_20dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginLeft="30dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/space_8dp"
+
+                android:textColor="@color/white"
+                android:fontFamily="@font/open_sans_bold"
+                android:text="Therapist List"
+
+                android:textSize="12dp" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    //2
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/profile_toolbar"
+        android:layout_marginTop="@dimen/space_20dp"
+        android:id="@+id/card_view1"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="@color/DarkCyan"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginLeft="30dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Pending Therapist"
+
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="@dimen/space_5dp"
+                android:textColor="@color/white"
+                android:padding="@dimen/space_8dp"
+                android:textSize="12dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    //3
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/card_view"
+        android:id="@+id/card_view2"
+        android:visibility="invisible"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="@color/DarkCyan"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginLeft="30dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Doctor\nCategory"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="@dimen/space_5dp"
+                android:textColor="@color/white"
+                android:padding="@dimen/space_8dp"
+                android:textSize="12dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    //3
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/card_view"
+        android:id="@+id/card_view34"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="@color/DarkCyan"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        android:visibility="invisible"
+        app:cardCornerRadius="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Top Doctor"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="@dimen/space_5dp"
+                android:textColor="@color/white"
+                android:padding="@dimen/space_8dp"
+                android:textSize="12dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view341"
+        android:layout_below="@id/card_view34"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="@color/DarkCyan"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="5dp"
+        android:visibility="invisible"
+        android:layout_marginLeft="30dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Today's Doctor"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="@dimen/space_5dp"
+                android:textColor="@color/white"
+                android:padding="@dimen/space_8dp"
+                android:textSize="12dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view3141"
+        android:layout_below="@id/card_view34"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="@color/DarkCyan"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        android:visibility="invisible"
+        app:cardCornerRadius="5dp"
+
+        android:layout_marginLeft="30dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Doctor Add"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="@dimen/space_5dp"
+                android:textColor="@color/white"
+                android:padding="@dimen/space_8dp"
+                android:textSize="12dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_v2iew3141"
+        android:layout_below="@id/card_view3141"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="false"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="@color/DarkCyan"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="5dp"
+        android:visibility="invisible"
+        android:layout_marginLeft="30dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=" Emergencey Doctor"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="@dimen/space_5dp"
+                android:textColor="@color/white"
+                android:padding="@dimen/space_8dp"
+                android:textSize="12dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view31412"
+        android:layout_below="@id/card_view3141"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="@color/DarkCyan"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="4dp"
+        android:visibility="invisible"
+        app:cardCornerRadius="5dp"
+
+        android:layout_marginLeft="30dp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Payment Request"
+                android:fontFamily="@font/open_sans_bold"
+                android:layout_marginTop="@dimen/space_5dp"
+                android:textColor="@color/white"
+                android:padding="@dimen/space_8dp"
+                android:textSize="12dp"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
